@@ -36,6 +36,15 @@ settings in the parameter cells. Fitting defaults to `QUICK_RUN=True` (three
 iterations per stage); set it to `False` for the original iteration schedule.
 The short run demonstrates execution, not convergence.
 
+The two-lattice detection example is tuned for this file with 4× mean binning:
+`sigma=4`, `threshold=16000`, and `center_find_method="shape_center"` with a
+50-pixel search radius. These settings reject weak satellite peaks and recover
+two parent bases with lengths near 216 binned pixels and included angles near
+60°. The notebook displays parent lattices first; enable `DRAW_MOIRE` to show
+satellite predictions. Thresholds depend on the data and binning, and the shape
+center setting assumes the direct beam is near the image midpoint. Library
+algorithms and defaults are unchanged.
+
 ## Imports
 
 ```python
