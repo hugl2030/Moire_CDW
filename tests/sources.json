@@ -1,0 +1,210 @@
+[
+  {
+    "module": "moire_cdw.fitting",
+    "name": "robust_normalize",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 10,
+    "ast_sha256": "ec71aaf6addd7b193ba9176e47d9db73a1882991cb7a5e96941241b8a565503d",
+    "source_name": "robust_normalize"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "extract_patch",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 10,
+    "ast_sha256": "c67d13562e3050b127dea37bb769c7d2fb3855173e6cacbe23db6dc66862047a",
+    "source_name": "extract_patch"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "make_template_from_peaks",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 10,
+    "ast_sha256": "28844eb6907590f90d68cae37531f751c54f7776c05a3fd7c998ad50c73f314e",
+    "source_name": "make_template_from_peaks"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "make_center_weight_mask",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 10,
+    "ast_sha256": "0ae1a78866c943ca3901d23d2738cce86e47f90b54a2849bb5eec469c1b13daa",
+    "source_name": "make_center_weight_mask"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "tile_points_bounded",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 10,
+    "ast_sha256": "836d303932def51ad86453754f848d2777f7aee6ade45a8cd774160d4dfc39ad",
+    "source_name": "tile_points_bounded"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "get_auto_init_from_moire",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 10,
+    "ast_sha256": "168b654fa8f3a6432899550c5986aee65b110b8c637e442cbf5668424b3d3426",
+    "source_name": "get_auto_init_from_moire"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "build_moire_from_vectors",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 10,
+    "ast_sha256": "f796b0ae3e38f99dd28d5a468d0dfa0651e68301d258b8f2bee4448e6e7e9430",
+    "source_name": "build_moire_from_vectors"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "_build_explicit_moire_from_vectors",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_trained_moire-Copy1.ipynb",
+    "cell": 10,
+    "ast_sha256": "d0746a13afd0b3897b818b2afdccb2f3443dac71373d9ee5b5fc52070283f945",
+    "source_name": "build_moire_from_vectors"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "TwoLatticeMoireFitter",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison.ipynb",
+    "cell": 12,
+    "ast_sha256": "de4758fdb4b9c0b69dc2df47b4287a5d0fc4cb38f0aa45bd999c1bee99e5cfb4",
+    "source_name": "TwoLatticeMoireFitter"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "ExplicitMoireFitter",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_trained_moire-Copy1.ipynb",
+    "cell": 12,
+    "ast_sha256": "6d879427a04923fd6238b116b6919e46b1eaddb1bb8c9690a72965aa126addb0",
+    "source_name": "TwoLatticeMoireFitter"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "compute_fit_metrics",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_trained_moire-Copy1.ipynb",
+    "cell": 25,
+    "ast_sha256": "5fb7b8aaf93f6d483c3bb23052288b0b30df8d1808352b07b58ba849a37708ba",
+    "source_name": "compute_fit_metrics"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "compare_vector_sets",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_trained_moire-Copy1.ipynb",
+    "cell": 25,
+    "ast_sha256": "20c73a28de7f3add87f4ccc29ebb227430738586daf96ddd07d08ebe61d0c6ef",
+    "source_name": "compare_vector_sets"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "plot_before_after_overlays",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_trained_moire-Copy1.ipynb",
+    "cell": 25,
+    "ast_sha256": "a7219a02c0793f2a5459c321198bb55644558db221d9c6240f4a70a3fe22635f",
+    "source_name": "plot_before_after_overlays"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "plot_before_after_models",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_trained_moire-Copy1.ipynb",
+    "cell": 26,
+    "ast_sha256": "614223676f23f8a80a90375cf504309cd7000af0a335091ea4f5da736a0b9da7",
+    "source_name": "plot_before_after_models"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "plot_refined_overlay",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_trained_moire-Copy1.ipynb",
+    "cell": 10,
+    "ast_sha256": "3c3aeab00e71fa9f76fcfefb95f94fc3d8eab547212ae5d8bd7b550ed05f050e",
+    "source_name": "plot_refined_overlay"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "plot_stage_result",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison-Copy1.ipynb",
+    "cell": 19,
+    "ast_sha256": "6968ad80718021f2b4c7789725669d484b16eaab49f3277560e5377b6d5d6b1c",
+    "source_name": "plot_stage_result"
+  },
+  {
+    "module": "moire_cdw.fitting",
+    "name": "fit_staged_with_stage_plots",
+    "source": "Fitting model/moire_auto_init_plus_fitting_with_comparison-Copy1.ipynb",
+    "cell": 19,
+    "ast_sha256": "a70a5e973250937b01ace426e551f03b644bc1970699cd1b44373bf9571bcf75",
+    "source_name": "fit_staged_with_stage_plots"
+  },
+  {
+    "module": "moire_cdw.calibration",
+    "name": "calibration",
+    "source": "Calibration/moire_test_03.ipynb",
+    "cell": 20,
+    "ast_sha256": "33179ec78a94bf413ef15d7dbfd566fcdde04a60a93350cfa224c949b783d5b6",
+    "source_name": "calibration"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "_as_scalar_int",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 8,
+    "ast_sha256": "25377c1ceddfe69d61564443a70996666122a42aba54e9fdbd204cfe705bf5b8",
+    "source_name": "_as_scalar_int"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "sanitize_vector_indices",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 8,
+    "ast_sha256": "5601b359db4f52cc66a01819e0488038a05c8f48006874193effaf04e98b412c",
+    "source_name": "sanitize_vector_indices"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "get_auto_init_from_moire_three",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 8,
+    "ast_sha256": "a4d810c7ed834037a6604204407cc7f534fd80d1f0c9192de0aac657ecde6787",
+    "source_name": "get_auto_init_from_moire_three"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "make_template_from_peaks",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 8,
+    "ast_sha256": "d7ba5d8603e45fadb7a6492dc34ad37582281b09b0b23f0dcd91d5694e82d804",
+    "source_name": "make_template_from_peaks"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "_unique_points_or_none",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 8,
+    "ast_sha256": "6e2888d1cb8ad08ce51e3b46297b522b855674a7dd14c2a6810af7cba9f41b3d",
+    "source_name": "_unique_points_or_none"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "build_three_lattice_moire_from_vectors",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 8,
+    "ast_sha256": "238e591e7cde3d2c06e9a6648e05bd7bc514d36fa86244c6aa091cc8d1e4abe6",
+    "source_name": "build_three_lattice_moire_from_vectors"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "plot_refined_overlay_three",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 8,
+    "ast_sha256": "4b75ad7d03ca2eb0e86a7abd39809238108c338b082e00552bbc4d0da0fc15d7",
+    "source_name": "plot_refined_overlay_three"
+  },
+  {
+    "module": "moire_cdw.tri",
+    "name": "TripleLatticeMoireFitter",
+    "source": "tri_fitting/1.ipynb",
+    "cell": 10,
+    "ast_sha256": "5bb3df5155fa82a32ccc734248b805a381c5d9f40db6106017948c597b636496",
+    "source_name": "TripleLatticeMoireFitter"
+  }
+]
