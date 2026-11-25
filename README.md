@@ -82,13 +82,15 @@ while installed distribution metadata says 0.1.6. No environment was upgraded.
 ```sh
 python -m pytest -q
 python tools/run_examples.py
+python tools/run_examples.py --in-place
 python tools/run_examples.py --only 02_fitting.ipynb --explicit
 ```
 
 The regression tests compare source definitions, numerical results, and staged
 fits with the original notebooks. Use `--save-notebooks` to retain executed
 review copies under `outputs/validation/`. By default only a compact validation
-report is kept. Numerical results are saved
+report is kept. The committed examples include executed outputs; use
+`--in-place` to refresh them after changing settings. Numerical results are saved
 separately under `outputs/two_lattice/` and `outputs/tri/`.
 
 ## Originals and retained behavior

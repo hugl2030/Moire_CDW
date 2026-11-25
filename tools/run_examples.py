@@ -1,7 +1,7 @@
 """Execute examples in fresh kernels; optionally retain executed review copies.
 
 Run from any directory using the Python environment that supplies QuantEM.
-The source example notebooks remain clean and unexecuted.
+Use --in-place to save successful executions into the example notebooks.
 """
 import argparse
 import hashlib
@@ -23,7 +23,10 @@ def main():
     parser.add_argument("--only", nargs="*", help="Example paths relative to examples/")
     parser.add_argument("--explicit", action="store_true", help="Run the two-lattice fitter in explicit-moire mode")
     parser.add_argument("--save-notebooks", action="store_true", help="Keep executed notebook copies under outputs/validation/")
+    parser.add_argument("--in-place", action="store_true", help="Save successful runs, including figures, into examples/")
     args = parser.parse_args()
+    if args.in_place and args.explicit:
+        parser.error("Use --save-notebooks for the explicit variant to preserve the main example's settings.")
     names = args.only or ["01_find_peaks_and_vectors.ipynb", "02_fitting.ipynb",
                           "03_calibration.ipynb", "tri/01_three_lattice.ipynb"]
     output = ROOT / "outputs/validation" / ("explicit" if args.explicit else "default")
@@ -49,6 +52,8 @@ def main():
         finally:
             if args.save_notebooks:
                 nbformat.write(notebook, output / name.replace("/", "__"))
+        if args.in_place:
+            nbformat.write(notebook, path)
         elapsed = time.monotonic() - start
         records.append(dict(notebook=name, seconds=elapsed, status="passed",
                             source_sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
